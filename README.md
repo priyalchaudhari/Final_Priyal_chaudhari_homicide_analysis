@@ -73,3 +73,4 @@ png Files: []()
 - With perpatrator race known most of the cases are solved in that case 
 - With relationship is also same sinario . Most of cases go unsolved if relationship between victim and perpatrator is unknown 
 - With this analysis I conclude that Perpatrator race, Relation are two most important factors to solve the case. 
+- Even with relationship if the relationship is stranger then also cases are solved but if its unknown then the rate of solving decreases 
