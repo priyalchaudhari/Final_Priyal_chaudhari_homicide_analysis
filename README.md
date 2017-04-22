@@ -91,10 +91,31 @@ png Files: []()
 
 
 # Analysis 3:
-
-## Number of crimes per 10,000 people for each state
+## most safe and Unsafe state in united states based on rate of homicide.
+## conclusion based on (Number of crimes per 10,000 people for each state)
 
 ### Steps:
 - First downloaded and cleaned data for population for each state and calculate avg of population for each state 
 - Read the data from both the dataset. 1) Homocide dataset and 2) Population Dataset
-- Combine the 
+- Calculate the number of cases grouped by state 
+- Then calculate the ave population per state 
+- sorth the dataframe to get top and bottom values 
+- combine both dataset in to single frame and plot the graph 
+
+### Output
+
+### Plot
+
+![result](https://cloud.githubusercontent.com/assets/25044602/25308456/b51746c8-2782-11e7-9fad-c56e21280c3a.png)
+
+![result_safe](https://cloud.githubusercontent.com/assets/25044602/25308460/c8d35756-2782-11e7-9cc4-bc4522215e16.png)
+
+
+### Conclusion: 
+- Two of most unsafe states where crime rates are high are D.C. and Louisiana
+- North Dakota and New Hampshire are the 2 safe states according to crime rate
+- -The FBI's crime report for 2012 found nearly 68% of all homicides in America involved a firearm, and Louisiana fiercely protects the right to bear arms. The state passed an amendment in November making gun ownership a "fundamental right" like free speech and making it extremely difficult to pass laws that step on that right. Louisiana also passed a law recently that lets its citizens apply for concealed carry handgun permits that last their entire lifetimes. Louisianans who want to walk around and openly carry their guns don't need a permit at all under the state's open carry law. 
+- This is the link for above statastics <http://www.businessinsider.com/why-is-the-murder-rate-high-in-louisiana-2013-9>
+- Hence because of the very low regulation the homicide rate is high in Louisiana. 
+
+# Analysis 4 : 
