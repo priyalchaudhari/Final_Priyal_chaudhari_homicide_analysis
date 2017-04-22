@@ -88,3 +88,13 @@ png Files: []()
 - With this analysis I conclude that Perpatrator race, Relation are two most important factors to solve the case. 
 - Even with relationship if the relationship is stranger then also cases are solved but if its unknown then the rate of solving decreases 
 - The results that I am getting from random forest are same that I have got in the graph . 
+
+
+# Analysis 3:
+
+## Number of crimes per 10,000 people for each state
+
+### Steps:
+- First downloaded and cleaned data for population for each state and calculate avg of population for each state 
+- Read the data from both the dataset. 1) Homocide dataset and 2) Population Dataset
+- Combine the 
