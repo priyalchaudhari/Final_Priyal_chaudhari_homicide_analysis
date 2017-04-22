@@ -32,3 +32,12 @@ CSV Files:[]()
 png Files: []()
 
 ### Plots: 
+![weaponused](https://cloud.githubusercontent.com/assets/25044602/25302541/6fef44de-270e-11e7-8224-0ee26e89ad16.png)
+![male female distribution with weapon](https://cloud.githubusercontent.com/assets/25044602/25302545/9179151c-270e-11e7-9d70-78230c861440.png)
+![gunlicenceperstate](https://cloud.githubusercontent.com/assets/25044602/25302548/9a6881f8-270e-11e7-838b-480473ca27e7.png)
+![statewiseheatmap](https://cloud.githubusercontent.com/assets/25044602/25302562/a33420da-270e-11e7-8227-9505e6aca683.png)
+
+### conclusion:
+- That Higher Rates of Gun Ownership Lead to Higher Rates of Violent Crime Rifle Association and other gun-rights proponents, who have steadfastly pushed the idea that a society with more guns leads to less crime, and that “the only way to stop a bad guy with a gun is a good guy with a gun.”
+- shows that gun ownership is more often a catalyst than a deterrent to crime.
+- As seen in graphs California, Texas issues most license and the murder count in those states are more
