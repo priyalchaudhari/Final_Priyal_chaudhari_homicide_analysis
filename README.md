@@ -41,3 +41,35 @@ png Files: []()
 - That Higher Rates of Gun Ownership Lead to Higher Rates of Violent Crime Rifle Association and other gun-rights proponents, who have steadfastly pushed the idea that a society with more guns leads to less crime, and that “the only way to stop a bad guy with a gun is a good guy with a gun.”
 - shows that gun ownership is more often a catalyst than a deterrent to crime.
 - As seen in graphs California, Texas issues most license and the murder count in those states are more
+- More number of registration issued the crime is increasing. So with that I can conclude that the gun which is given for the safety and self defence is being used for commiting crimes.
+
+# Analysis 2:
+
+## Factors Affecting solving murder crimes. 
+
+### Steps: 
+- The data files containing homicide and Weapons Registration data is read in to a dataframe
+- get the unique value in perpatrator column 
+- Count the number of cases solved for each race known and count the number of cases unsolved
+- Count the number of cases solved and unsolved if the race is UNKNOWN 
+- plot the graph for Perpatrator race vs number of cases 
+- Follow same procedure for Victim sex and Relationship 
+- Plot the graphs for both 
+- Used random forest algorithm to check wheather the factors I am getting with graph match with feature ranking of algorithm
+
+### output:
+
+### Plot
+![race vs crimesolved](https://cloud.githubusercontent.com/assets/25044602/25303292/afbee42a-271d-11e7-924f-b8d84e2325cc.png)
+
+
+![victim race vs crimesolved](https://cloud.githubusercontent.com/assets/25044602/25303294/b83e27b4-271d-11e7-8e8d-4ebf5b925ea5.png)
+
+![relationship vs crimesolved](https://cloud.githubusercontent.com/assets/25044602/25303298/c13908de-271d-11e7-99b2-81b4085b34e1.png)
+
+### Conclusion: 
+- Based on the result in the graph Most valuable features above 15%: Perpetrator Sex, Perpetrator Age, Perpetrator Race,Relationship
+- I have also plotted the the gapth for victim race but that factor is not making significance difference. Even if the victim race is known there are several cases that has gone unsolved 
+- With perpatrator race known most of the cases are solved in that case 
+- With relationship is also same sinario . Most of cases go unsolved if relationship between victim and perpatrator is unknown 
+- With this analysis I conclude that Perpatrator race, Relation are two most important factors to solve the case. 
