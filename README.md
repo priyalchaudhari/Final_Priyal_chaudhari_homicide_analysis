@@ -37,6 +37,11 @@ png Files: []()
 ![gunlicenceperstate](https://cloud.githubusercontent.com/assets/25044602/25302548/9a6881f8-270e-11e7-838b-480473ca27e7.png)
 ![statewiseheatmap](https://cloud.githubusercontent.com/assets/25044602/25302562/a33420da-270e-11e7-8227-9505e6aca683.png)
 
+### Algorithm Result:
+ 
+![captureqw](https://cloud.githubusercontent.com/assets/25044602/25303391/12622900-2720-11e7-99b5-63813a529cec.PNG)
+![wq](https://cloud.githubusercontent.com/assets/25044602/25303396/1dca632a-2720-11e7-8f5f-813a8c326c6c.PNG)
+
 ### conclusion:
 - That Higher Rates of Gun Ownership Lead to Higher Rates of Violent Crime Rifle Association and other gun-rights proponents, who have steadfastly pushed the idea that a society with more guns leads to less crime, and that “the only way to stop a bad guy with a gun is a good guy with a gun.”
 - shows that gun ownership is more often a catalyst than a deterrent to crime.
@@ -74,3 +79,4 @@ png Files: []()
 - With relationship is also same sinario . Most of cases go unsolved if relationship between victim and perpatrator is unknown 
 - With this analysis I conclude that Perpatrator race, Relation are two most important factors to solve the case. 
 - Even with relationship if the relationship is stranger then also cases are solved but if its unknown then the rate of solving decreases 
+- The results that I am getting from random forest are same that I have got in the graph . 
