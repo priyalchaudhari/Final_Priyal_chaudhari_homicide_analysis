@@ -33,14 +33,15 @@ png Files: []()
 
 ### Plots: 
 ![weaponused](https://cloud.githubusercontent.com/assets/25044602/25302541/6fef44de-270e-11e7-8224-0ee26e89ad16.png)
+
+
 ![male female distribution with weapon](https://cloud.githubusercontent.com/assets/25044602/25302545/9179151c-270e-11e7-9d70-78230c861440.png)
+
 ![gunlicenceperstate](https://cloud.githubusercontent.com/assets/25044602/25302548/9a6881f8-270e-11e7-838b-480473ca27e7.png)
+
+
 ![statewiseheatmap](https://cloud.githubusercontent.com/assets/25044602/25302562/a33420da-270e-11e7-8227-9505e6aca683.png)
 
-### Algorithm Result:
- 
-![captureqw](https://cloud.githubusercontent.com/assets/25044602/25303391/12622900-2720-11e7-99b5-63813a529cec.PNG)
-![wq](https://cloud.githubusercontent.com/assets/25044602/25303396/1dca632a-2720-11e7-8f5f-813a8c326c6c.PNG)
 
 ### conclusion:
 - That Higher Rates of Gun Ownership Lead to Higher Rates of Violent Crime Rifle Association and other gun-rights proponents, who have steadfastly pushed the idea that a society with more guns leads to less crime, and that “the only way to stop a bad guy with a gun is a good guy with a gun.”
@@ -71,6 +72,13 @@ png Files: []()
 ![victim race vs crimesolved](https://cloud.githubusercontent.com/assets/25044602/25303294/b83e27b4-271d-11e7-8e8d-4ebf5b925ea5.png)
 
 ![relationship vs crimesolved](https://cloud.githubusercontent.com/assets/25044602/25303298/c13908de-271d-11e7-99b2-81b4085b34e1.png)
+
+### Algorithm Result:
+ 
+![captureqw](https://cloud.githubusercontent.com/assets/25044602/25303391/12622900-2720-11e7-99b5-63813a529cec.PNG)
+
+
+![wq](https://cloud.githubusercontent.com/assets/25044602/25303396/1dca632a-2720-11e7-8f5f-813a8c326c6c.PNG)
 
 ### Conclusion: 
 - Based on the result in the graph Most valuable features above 15%: Perpetrator Sex, Perpetrator Age, Perpetrator Race,Relationship
