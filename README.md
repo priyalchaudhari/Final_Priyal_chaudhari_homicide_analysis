@@ -121,3 +121,38 @@ png Files: []()
 # Analysis 4 : 
 ## Crime rate with change of wheather.
 ## How whather is affecting crime in United States
+## Combined Wheather data with Homicide data to see the pattern and also Used state abbrivation data to match the statenames
+### Steps:
+- First collected the data for wheather for the link mentioned above 
+- In that data the teparature for state is given monthwise 
+- Converted the interger number month column in to word format 
+- The state names mentioned are in abbrivated format in temp data 
+- downloaded and used a US STATE and there abbrivation CSV file to merge with temparature data so that I have statename in full format now 
+- calculated the avg temp for each state the temparature is splited monthwise because we wanted to see the pattern when wheather changes 
+- The calculate the number of incidents for each state monthwise 
+- For that counted the incidents grouped by month and state 
+- Merged both data based on state and month . Statenames ar matched using the abbrivation file used 
+- Then splitted the data in separate datafrome statewise 
+- Each state will have 12 months of data in a dataframe 
+- plotted a line chart for each state to see the progression in number of crimes with change in wheather 
+
+### Output 
+
+### Plots: 
+![california](https://cloud.githubusercontent.com/assets/25044602/25309199/63377d02-2794-11e7-8c82-df07d8e8be9a.png)
+
+![new york](https://cloud.githubusercontent.com/assets/25044602/25309202/70bd7120-2794-11e7-8b8a-a4e3d864bb4f.png)
+
+![texas](https://cloud.githubusercontent.com/assets/25044602/25309204/729e0aa4-2794-11e7-928e-0f788f56cdf2.png)
+
+![louisiana](https://cloud.githubusercontent.com/assets/25044602/25309201/6ca29d40-2794-11e7-8ef2-5f67ec71dd1d.png)
+
+### conclusion:
+- As seen in the plots with california,Texas,New york all show increase in crime rate with increase in temparature 
+- Louisiana which has hieghest crime rate in US (According to findings in previous analysis) surprisingly dosent show any pattern. 
+- hot temperatures increase irritability, which in turn increases aggressive behavior, including violent crime.
+- "More people out - more crime, less people out - less crime."
+
+# Analysis 5:
+
+
