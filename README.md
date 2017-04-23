@@ -110,6 +110,9 @@ png Files: []()
 
 ![result_safe](https://cloud.githubusercontent.com/assets/25044602/25308460/c8d35756-2782-11e7-9cc4-bc4522215e16.png)
 
+![usa states crime per 10 000](https://cloud.githubusercontent.com/assets/25044602/25309674/1db10b92-27a1-11e7-8291-37e47a6c2c6e.png)
+
+
 
 ### Conclusion: 
 - Two of most unsafe states where crime rates are high are D.C. and Louisiana
@@ -180,6 +183,10 @@ png Files: []()
 
 
 ![scatterplot](https://cloud.githubusercontent.com/assets/25044602/25309446/6c9312ec-279b-11e7-8552-d33f0c148e4c.png)
+
+
+![relationship and weapon heatmap](https://cloud.githubusercontent.com/assets/25044602/25309724/9f8308d6-27a2-11e7-8933-d2edc5dd17aa.png)
+
 
 ### conclusion: 
 - AS seen in the pie chart most of the relationships almost half are strangers 
