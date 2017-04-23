@@ -1,0 +1,13 @@
+YearMonth,State_x,AvgTemp,State_y,Abbreviation,Month,State,number of incidents
+December,CA,48.891358024691364,California,CA,December,California,8433
+January,CA,52.30736196319019,California,CA,January,California,8330
+November,CA,55.946296296296325,California,CA,November,California,7830
+February,CA,57.331176470588254,California,CA,February,California,7189
+March,CA,59.44311377245506,California,CA,March,California,7882
+April,CA,61.53132530120481,California,CA,April,California,7944
+May,CA,64.02337662337659,California,CA,May,California,8396
+October,CA,67.17588235294116,California,CA,October,California,8589
+September,CA,72.54491017964072,California,CA,September,California,8516
+June,CA,72.85975609756098,California,CA,June,California,8261
+July,CA,74.88765432098766,California,CA,July,California,9171
+August,CA,75.5616352201258,California,CA,August,California,9242
