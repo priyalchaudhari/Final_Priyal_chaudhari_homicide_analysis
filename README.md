@@ -154,5 +154,39 @@ png Files: []()
 - "More people out - more crime, less people out - less crime."
 
 # Analysis 5:
+## Homicide distribution according to relationship in USA
+## Age distribution of each relationship category 
+
+### Steps: 
+- First read the data from CSV file in to a dataframe 
+- read all the relationship betweent victim and perpatrator 
+- categorize the relationship in criterial like male oartner, parents, childrens 
+- create a new column in dataframe and all the relationship category values in to that column 
+- Count the number of incidents for each category 
+- get the total incidents from data frame 
+- calculate the pecentage for each category 
+- plot the pei chart for percentage 
+- then get the age group involved in each category 
+- plot a scotter plot to show density of age group. 
+
+### Output:
+
+### plots:
+
+![piechart for percentage](https://cloud.githubusercontent.com/assets/25044602/25309447/6c939d3e-279b-11e7-98ff-82f6e5915783.png)
+
+
+![piechartanotherversion](https://cloud.githubusercontent.com/assets/25044602/25309445/6c9259a6-279b-11e7-9b93-25105c29519f.png)
+
+
+![scatterplot](https://cloud.githubusercontent.com/assets/25044602/25309446/6c9312ec-279b-11e7-8552-d33f0c148e4c.png)
+
+### conclusion: 
+- AS seen in the pie chart most of the relationships almost half are strangers 
+- 2nd most troubled group of relationship is Aquaitence 
+- Most of homicide crimes are must be serial killers or gang wars hence relation category is stranger 
+- By above graph it is also observed that homicide crimes based on some motive like most of partner or parent category crimes have motive or personal agenda . These crimes are less as compaired to other categories. 
+- Scatter plot shows the age group involved in each categoty
+- There is a pattern for each category like in neighbour category there is no significant grouping. Whereas in sibling category we will find that maximum grouping is around age 20yrs to 40 yrs  
 
 
