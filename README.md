@@ -5,6 +5,9 @@
 
 
 ## Homicide Data Analysis (Final)
+
+#### I am using the pattern 1 of the project where I have downloaded the CSV files and performed 5 analysis on Homiside dataset. Also combined weapon registration, Population, Weather(Temaparature) these 3 data sets with the main himicide data set 
+
 ## Data Used:
 
 - For this analysis used Homicide dataset in .CSV format as main dataset you can see the files [here](Final/data) Filename Database and database1 are main dataset files 
@@ -14,6 +17,8 @@
 - For analysis 4 used wheather dataset to combine with homicide dataset to see how homicide rate gets effected with change of wheather you can find wheather data [Here](Final/data). Wheather and temparature data was downloaded from <https://www.ncdc.noaa.gov/>
 
 - For analysis 3 used population data statewise to combine with homicide data you can find population data [here](Final/data). Population data is fetched from <https://catalog.data.gov/dataset?res_format=CSV>
+
+- used relative path for storing and reading the files of data 
 
 ### Purpose for doing analysis on homicide: 
 - Nowadays homicide crimes in USA has increased. Wanted to find out factors that contribute in those crimes. 
@@ -27,10 +32,18 @@
 - The data files containing homicide and Weapons Registration data is read in to a dataframe
 - Filter the date get only entries where crime is solved. So that we know which weapon is used. Also filter wntries where gender is UNKNOWN
 - For each weapon count the number of incidents and plot the grapth . 
+- used seaborn bargrapg to plot the graph 
 - Split the data based on gender and count the number of incidents group by Weapon for male and female separately ans plot the grapth 
-- From second dataset get Avg number of Handgun and LongGun Issued by each state . Because those are the 2 most used weapon for crime. 
+- split the seaborn figure in 2 and plotted the male female distribution 
+- read the second data set in dataframe 
+- From second dataset get Avg number of Handgun and LongGun Issued by each state . Because those are the 2 most used weapon for crime.
 - Plot the graph of count of gun lisence issued by each state. The data is present for 20 years 
+- For plotting the graph used seaborn liabrary and splitted the figure in 2 subplots to show count fo each gun type 
+- Also used `ploly` for plotting the male female distribution stacked graph 
+- get the count of each weapon used grouped by state 
 - From main dataset plot the heatmap for statewise weapon used.
+- saved the figure in specifiied folder using `plt.savefig(path)`
+
 
 ### Output: 
 [Output Files](Final/Output_Files)
@@ -59,12 +72,14 @@
 
 ### Steps: 
 - The data files containing homicide and Weapons Registration data is read in to a dataframe
+- for reading the and creating dataframe used `pd.read_csv(filepath)`
 - get the unique value in perpatrator column 
 - Count the number of cases solved for each race known and count the number of cases unsolved
 - Count the number of cases solved and unsolved if the race is UNKNOWN 
 - plot the graph for Perpatrator race vs number of cases 
 - Follow same procedure for Victim sex and Relationship 
 - Plot the graphs for both 
+- used seaborn liabrary to plot the graphs 
 - Used random forest algorithm to check wheather the factors I am getting with graph match with feature ranking of algorithm
 
 ### output:
@@ -102,10 +117,15 @@
 ### Steps:
 - First downloaded and cleaned data for population for each state and calculate avg of population for each state 
 - Read the data from both the dataset. 1) Homocide dataset and 2) Population Dataset
+- Load the data in panad dataframe 
 - Calculate the number of cases grouped by state 
 - Then calculate the ave population per state 
 - sorth the dataframe to get top and bottom values 
 - combine both dataset in to single frame and plot the graph 
+- used basemap  to generate the heatmap on USA geographical structure 
+- for using the basemap first installed it using `conda install -c conda-forge basemap=1.0.8.dev0`
+- For plotting the bargraph used seaborn liabrary 
+- saved figures using `plt.savefig(path)`
 
 ### Output
 [Output Files](Final/Output_Files)
@@ -139,7 +159,7 @@
 - calculated the avg temp for each state the temparature is splited monthwise because we wanted to see the pattern when wheather changes 
 - The calculate the number of incidents for each state monthwise 
 - For that counted the incidents grouped by month and state 
-- Merged both data based on state and month . Statenames ar matched using the abbrivation file used 
+- Merged both data based on state and month . Statenames are matched using the abbrivation file used 
 - Then splitted the data in separate datafrome statewise 
 - Each state will have 12 months of data in a dataframe 
 - plotted a line chart for each state to see the progression in number of crimes with change in wheather 
@@ -169,7 +189,7 @@
 
 ### Steps: 
 - First read the data from CSV file in to a dataframe 
-- read all the relationship betweent victim and perpatrator 
+- read all the relationship between victim and perpatrator 
 - categorize the relationship in criterial like male oartner, parents, childrens 
 - create a new column in dataframe and all the relationship category values in to that column 
 - Count the number of incidents for each category 
