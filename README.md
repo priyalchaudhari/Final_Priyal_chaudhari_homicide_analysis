@@ -28,8 +28,7 @@
 - From main dataset plot the heatmap for statewise weapon used.
 
 ### Output: 
-CSV Files:[click here](Final/Output_Files/Analysis 1/CSV)
-png Files:[click here](Final/Output_Files/Analysis 1/png)
+[Output Files](Final/Output_Files)
 
 ### Plots: 
 ![weaponused](https://cloud.githubusercontent.com/assets/25044602/25302541/6fef44de-270e-11e7-8224-0ee26e89ad16.png)
@@ -64,7 +63,7 @@ png Files:[click here](Final/Output_Files/Analysis 1/png)
 - Used random forest algorithm to check wheather the factors I am getting with graph match with feature ranking of algorithm
 
 ### output:
-png Files:[click here](Final/Output_Files/Analysis 2/png)
+[Output Files](Final/Output_Files)
 
 ### Plot
 ![race vs crimesolved](https://cloud.githubusercontent.com/assets/25044602/25303292/afbee42a-271d-11e7-924f-b8d84e2325cc.png)
@@ -104,9 +103,7 @@ png Files:[click here](Final/Output_Files/Analysis 2/png)
 - combine both dataset in to single frame and plot the graph 
 
 ### Output
-CSV Files:[click here](Final/Output_Files/Analysis 3/CSV)
-png Files:[click here](Final/Output_Files/Analysis 3/png)
-
+[Output Files](Final/Output_Files)
 ### Plot
 
 ![result](https://cloud.githubusercontent.com/assets/25044602/25308456/b51746c8-2782-11e7-9fad-c56e21280c3a.png)
@@ -144,8 +141,7 @@ png Files:[click here](Final/Output_Files/Analysis 3/png)
 
 ### Output 
 
-CSV Files:[click here](Final/Output_Files/Analysis 4/CSV)
-png Files:[click here](Final/Output_Files/Analysis 4/png)
+[Output Files](Final/Output_Files)
 
 ### Plots: 
 ![california](https://cloud.githubusercontent.com/assets/25044602/25309199/63377d02-2794-11e7-8c82-df07d8e8be9a.png)
@@ -179,8 +175,7 @@ png Files:[click here](Final/Output_Files/Analysis 4/png)
 - plot a scotter plot to show density of age group. 
 
 ### Output:
-CSV Files:[click here](Final/Output_Files/Analysis 5/CSV)
-png Files:[click here](Final/Output_Files/Analysis 5/png)
+[Output Files](Final/Output_Files)
 
 
 ### plots:
